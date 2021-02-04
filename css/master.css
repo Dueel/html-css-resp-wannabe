@@ -1,5 +1,9 @@
 @media screen and (max-width: 420px) {
 
+  .container{
+    display: inline-block;
+    margin: 70px 0;
+  }
 
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
@@ -10,7 +14,16 @@
   }
 
   #lezioni .row>.left{
-    margin-bottom: 60px;
+    margin-bottom: 70px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 70px;
   }
 
 }
